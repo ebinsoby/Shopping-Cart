@@ -5,6 +5,12 @@ A web front end for a shoppping cart for an e-commerse website.
 * Vanila CSS
 * Functional components
 * React Hooks
+* Dummy Static Data (local)
+
+### Deploymentv
+
+Deployed at Netlify : https://ebinsoby-shopping-cart.netlify.app/
+
 
 ## Screenshots
 
