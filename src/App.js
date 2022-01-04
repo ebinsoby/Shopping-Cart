@@ -24,8 +24,7 @@ const App = () => {
   };
   return (
     <div className="App">
-      <div>{cart.length} items</div>
-      <Nav activeTab={activeTab} onTabChange={setActiveTab} />
+      <Nav activeTab={activeTab} onTabChange={setActiveTab}/>
       <main className="App-content">
         <Content
           tab={activeTab}

@@ -5,13 +5,14 @@ import "./CartPage.css";
 
 const CartPage = ({ items, onAddOne, onRemoveOne }) => {
   return (
-    <ul className="CartPage-item">
+    <>
+    <ul className="CartPage-items">
       {items.map((item) => (
         <li key={item.id} className="CartPage-item">
           <Item item={item}>
             <div className="CartItems-controls">
               <button
-                className="CartItems-removeOne"
+                className="CartItem-removeOne"
                 onClick={() => onRemoveOne(item)}
               >
                 &ndash;
@@ -28,6 +29,7 @@ const CartPage = ({ items, onAddOne, onRemoveOne }) => {
         </li>
       ))}
     </ul>
+    </>
   );
 };
 
