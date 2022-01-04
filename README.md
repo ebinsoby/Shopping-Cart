@@ -7,7 +7,7 @@ A web front end for a shoppping cart for an e-commerse website.
 * React Hooks
 * Dummy Static Data (local)
 
-### Deploymentv
+### Deployment
 
 Deployed at Netlify : https://ebinsoby-shopping-cart.netlify.app/
 
